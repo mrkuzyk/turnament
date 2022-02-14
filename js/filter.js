@@ -165,3 +165,6 @@ const randomRival = (members, minAge, maxAge, minWeight, maxWeight) => {
 
 console.log(randomRival(members, 13, 15, 63, 67));
 console.log(randomRival(members, 16, 18, 69, 74));
+
+// рандомний колір
+const randomColor = colors[(Math.floor(Math.random() * (colors.length)))]; 
